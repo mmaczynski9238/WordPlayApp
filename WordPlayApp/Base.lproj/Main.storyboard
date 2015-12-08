@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
-        <!--Word View Controller-->
+        <!--Noun View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="wordViewController" customModule="WordPlayApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="nounViewController" customModule="WordPlayApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,6 +21,7 @@
                                 <rect key="frame" x="369" y="202" width="30" height="30"/>
                                 <state key="normal" title="Add"/>
                                 <connections>
+                                    <action selector="nounButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BC9-0I-ynA"/>
                                     <segue destination="RZR-QL-Swz" kind="show" id="1zr-On-0lT"/>
                                 </connections>
                             </button>
@@ -41,17 +42,17 @@
                     <navigationItem key="navigationItem" id="Ofi-rH-2eC"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
-                        <outlet property="firstTextField" destination="fN0-Dp-25Y" id="7FG-eN-Flo"/>
+                        <outlet property="nounTextField" destination="fN0-Dp-25Y" id="5qx-av-cOl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1244" y="578"/>
         </scene>
-        <!--Word View Controller-->
+        <!--Verb View Controller-->
         <scene sceneID="ttk-Tn-Bv3">
             <objects>
-                <viewController id="RZR-QL-Swz" customClass="wordViewController" customModule="WordPlayApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RZR-QL-Swz" customClass="verbViewController" customModule="WordPlayApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Yxs-f3-nPH"/>
                         <viewControllerLayoutGuide type="bottom" id="i9Z-eJ-q0k"/>
@@ -75,6 +76,7 @@
                                 <rect key="frame" x="369" y="195" width="30" height="30"/>
                                 <state key="normal" title="Add"/>
                                 <connections>
+                                    <action selector="verbButton:" destination="RZR-QL-Swz" eventType="touchUpInside" id="JRG-Ua-o5v"/>
                                     <segue destination="S8F-Z9-y7f" kind="show" id="ylG-J0-NGm"/>
                                 </connections>
                             </button>
@@ -82,15 +84,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="verbTextField" destination="9gY-EB-Cw8" id="y9K-R0-a8W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Zg-CX-RbU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2275" y="578"/>
         </scene>
-        <!--Third View Controller-->
+        <!--Adjective View Controller-->
         <scene sceneID="X8T-ym-hlg">
             <objects>
-                <viewController id="S8F-Z9-y7f" customClass="thirdViewController" customModule="WordPlayApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="S8F-Z9-y7f" customClass="adjectiveViewController" customModule="WordPlayApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Lkr-Yd-jqO"/>
                         <viewControllerLayoutGuide type="bottom" id="9Pw-Wg-yIp"/>
@@ -114,6 +119,7 @@
                                 <rect key="frame" x="369" y="203" width="30" height="30"/>
                                 <state key="normal" title="Add"/>
                                 <connections>
+                                    <action selector="adjectiveButton:" destination="S8F-Z9-y7f" eventType="touchUpInside" id="Lx9-RN-XZB"/>
                                     <segue destination="sBc-1s-EEl" kind="show" id="JZJ-j9-2Vu"/>
                                 </connections>
                             </button>
@@ -121,6 +127,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="adjectiveTextField" destination="jma-Ub-w9n" id="TKR-WB-9xK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nwV-Mb-YEJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
