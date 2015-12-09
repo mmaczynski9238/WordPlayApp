@@ -20,10 +20,10 @@ class verbViewController: UIViewController {
         super.viewDidLoad()
     
   
-    var Nounword: String
-    var Verbword = String(verbTextField.text!)
-    var Adjectiveword:String
-    var noun = madLibsViewController(Noun: Nounword, Verb: Verbword, Adjective: Adjectiveword)
+   // var Nounword: String
+    //var Verbword = String(verbTextField.text!)
+    //var Adjectiveword:String
+    //var noun = madLibsViewController(Noun: Nounword, Verb: Verbword, Adjective: Adjectiveword)
     
         
         

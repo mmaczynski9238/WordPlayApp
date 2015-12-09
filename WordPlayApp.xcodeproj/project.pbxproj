@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D71F591F1C18C3220052D896 /* MadLibs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71F591E1C18C3220052D896 /* MadLibs.swift */; };
 		D735C63F1C10DC49005AF3B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735C63E1C10DC49005AF3B3 /* AppDelegate.swift */; };
 		D735C6411C10DC49005AF3B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735C6401C10DC49005AF3B3 /* ViewController.swift */; };
 		D735C6441C10DC49005AF3B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D735C6421C10DC49005AF3B3 /* Main.storyboard */; };
@@ -14,11 +15,9 @@
 		D735C6491C10DC49005AF3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D735C6471C10DC49005AF3B3 /* LaunchScreen.storyboard */; };
 		D735C6541C10DC49005AF3B3 /* WordPlayAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735C6531C10DC49005AF3B3 /* WordPlayAppTests.swift */; };
 		D735C65F1C10DC49005AF3B3 /* WordPlayAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735C65E1C10DC49005AF3B3 /* WordPlayAppUITests.swift */; };
-		D74F82691C1232A6002DD901 /* wordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74F82681C1232A6002DD901 /* wordViewController.swift */; };
 		D7E6B5571C16249000954609 /* nounViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6B5561C16249000954609 /* nounViewController.swift */; };
 		D7E6B5591C16249E00954609 /* verbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6B5581C16249E00954609 /* verbViewController.swift */; };
 		D7E6B55B1C1624AA00954609 /* adjectiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6B55A1C1624AA00954609 /* adjectiveViewController.swift */; };
-		D7E6B55D1C16276700954609 /* madLibsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6B55C1C16276700954609 /* madLibsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D71F591E1C18C3220052D896 /* MadLibs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadLibs.swift; sourceTree = "<group>"; };
 		D735C63B1C10DC49005AF3B3 /* WordPlayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordPlayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D735C63E1C10DC49005AF3B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D735C6401C10DC49005AF3B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,11 +52,9 @@
 		D735C65A1C10DC49005AF3B3 /* WordPlayAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D735C65E1C10DC49005AF3B3 /* WordPlayAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPlayAppUITests.swift; sourceTree = "<group>"; };
 		D735C6601C10DC49005AF3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D74F82681C1232A6002DD901 /* wordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wordViewController.swift; sourceTree = "<group>"; };
 		D7E6B5561C16249000954609 /* nounViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nounViewController.swift; sourceTree = "<group>"; };
 		D7E6B5581C16249E00954609 /* verbViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = verbViewController.swift; sourceTree = "<group>"; };
 		D7E6B55A1C1624AA00954609 /* adjectiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = adjectiveViewController.swift; sourceTree = "<group>"; };
-		D7E6B55C1C16276700954609 /* madLibsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = madLibsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +108,9 @@
 				D735C63E1C10DC49005AF3B3 /* AppDelegate.swift */,
 				D735C6401C10DC49005AF3B3 /* ViewController.swift */,
 				D735C6421C10DC49005AF3B3 /* Main.storyboard */,
-				D74F82681C1232A6002DD901 /* wordViewController.swift */,
 				D7E6B5561C16249000954609 /* nounViewController.swift */,
 				D7E6B5581C16249E00954609 /* verbViewController.swift */,
-				D7E6B55C1C16276700954609 /* madLibsViewController.swift */,
+				D71F591E1C18C3220052D896 /* MadLibs.swift */,
 				D7E6B55A1C1624AA00954609 /* adjectiveViewController.swift */,
 				D735C6451C10DC49005AF3B3 /* Assets.xcassets */,
 				D735C6471C10DC49005AF3B3 /* LaunchScreen.storyboard */,
@@ -271,13 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D71F591F1C18C3220052D896 /* MadLibs.swift in Sources */,
 				D7E6B55B1C1624AA00954609 /* adjectiveViewController.swift in Sources */,
-				D7E6B55D1C16276700954609 /* madLibsViewController.swift in Sources */,
 				D735C6411C10DC49005AF3B3 /* ViewController.swift in Sources */,
 				D7E6B5591C16249E00954609 /* verbViewController.swift in Sources */,
 				D735C63F1C10DC49005AF3B3 /* AppDelegate.swift in Sources */,
 				D7E6B5571C16249000954609 /* nounViewController.swift in Sources */,
-				D74F82691C1232A6002DD901 /* wordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

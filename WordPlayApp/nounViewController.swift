@@ -11,21 +11,26 @@ import UIKit
 class nounViewController: UIViewController  {
     
     @IBOutlet weak var nounTextField: UITextField!
+    var words = MadLibs()
     
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
       
-        //let nounWord = String(nounTextField.text!)
-         var Nounword = String(nounTextField.text!)
-        var Verbword: String
-        var Adjectiveword: String
-
-        var noun = madLibsViewController(Noun: Nounword, Verb: Verbword, Adjective: Adjectiveword)
+     
         
        
+        func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
+        let next = segue.destinationViewController as! verbViewController
+        
+        
+        
+        
+        
+        
+        }
         
         
         
@@ -39,12 +44,4 @@ class nounViewController: UIViewController  {
 
 
 
-/*
-// MARK: - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-// Get the new view controller using segue.destinationViewController.
-// Pass the selected object to the new view controller.
-}
-*/
